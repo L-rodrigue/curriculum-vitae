@@ -1,11 +1,37 @@
-body{
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+h3 {
+  color: #ffffff;
+  font-size: 48px;
+}
+p {
+  font-size: 24px;
+  margin: 100px 0 150px 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+img {
+  height: 200px;
+  width: 240px;
+}
+body  {
   background-color: black;
   background-image: url("imgs/ess-1.png");
   background-attachment:fixed;
   margin: 0px;
 }
 
+.max-container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
 
+header {
+  height: 500px;
+  margin-bottom: 200px;
+}
 .navbar {
   left: 0;
   right: 0;
@@ -13,80 +39,101 @@ body{
   top: 0px;
   height: 50px;
   padding: 0 15px;
-  
-  background-color:white;
+  background-color:#ffffff;
 }
-.home{
-  float: left;
-  text-decoration: none;
-  
+nav {
+  height: 40px;
+  float: right ;
+  margin: 15px 10px 0 0 ;
 }
 
 
 nav a {
-  float: right;
-  padding: 16.5px 15px;
-  color: black;
+  color: #000000;
+  padding: 3rem;
   text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
   color: #D38338;
 }
 
-.title{
-  margin-top: 120px;
-  margin-left: 360px;
-  color: white;
-  font-size: 24px;
+.home img {
+  width: 50px;
+  height: 50px;
 }
-.p-header{
-  color: white;
-  margin-left: 360px;
-  margin-top: 100px;
+
+.contenu-heander {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 150px;
+line-height: 3rem;
+text-align: center;
+color: #ffffff;
 }
-.bouton{
-  left: 500px;
-  top: 330px;
-  position: absolute;
-  width: 80px;
-  height: 90px;
-  overflow: hidden;
+.title {
+  color: #000000;
+}
+.down {
+  justify-content: center;
+  margin-left: 5%;
+}
+
+button {
+  background-color:  #D38338;
+  height: 100px;
+  width: 100px;
   border-radius: 100%;
+  border: none;
+  
+}
+button:hover {
+  opacity: 50%;
+}
+
+.container {
+  height: 900px;
+  background-color: #ffffff ;
+  text-align: center; 
+  padding-top: 50px;
+  padding-left: 50px;
+  
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-transparency {
+  height: 800px;
+  text-align: center;
+}
+
+.contenu {
+  margin: 0 50px 0 80px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.contenu p {
+  color: #ffffff;
+}
+.cercle  {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color:#D38338;
+}
+
+.backgroundIcon{
+  width: 120px;
+  height: 75px;
+  border-radius: 50%;
   background-color: #D38338;
 }
-.bouton:hover{
-  opacity: 0.8;
-}
-.container-about{
-  margin-top: 400px;
-  height: 815px;
-  background-color:white;
-}
 
-.container-about:active{
-  color: #D38338;
-}
-.about{
-  align-items: center;
-  padding: 2rem;
-  margin:0 168px;
-  font-size: 24px;
-}
-.p-about{
-  font-size: 16px;
-}
-.container-competences{
-  height: 900px;
-}
-.container-realisations{
-  height: 960px;
-  background-color: white;
-}
-.container-contact{
-  height: 750px;
-}
-footer{
+footer  {
   height: 190px;
-  background-color: white;
-  margin-bottom: 0;
+  background-color: #fff;
 }
